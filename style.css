@@ -1,0 +1,138 @@
+body { 
+background-color: #d4f9eb; }
+
+*{margin: 0;
+padding: 0;
+}
+
+nav {
+
+  background: #113548;
+  text-align: center;
+  padding: 8px;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 1px 13px;
+  padding-top: 3px;
+}
+
+nav li a 
+{ color: white;
+text-decoration: none;
+font-family: 'Gruppo', cursive;  
+text-transform: uppercase;   }
+
+nav li:hover 
+{ 
+text-decoration: underline;}
+
+@media screen and (max-width: 500px){
+
+  nav {padding: none;}
+  nav li {
+    background color: white;
+    display: block;
+    padding: 4px;
+    margin: 5px 0;
+  }
+}
+.header {
+  height:65px;}
+
+
+
+p {
+  color: #5a8373;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 12px;
+  background-color: #baecd9;
+  padding: 20px;
+}
+
+.mainContainer{width:50%; margin:0 auto;}
+
+h1 {
+  margin:0;
+  vertical-align: middle;
+  text-align:center;
+  font-size: 16px;
+  text-transform:uppercase;
+  color: #5a8373; 
+  font-family: 'Gruppo', cursive;  
+  padding-top: 40px;
+  font-style: bold; 
+}
+h2 {
+  margin:0;
+  vertical-align: left;
+  text-align:left;
+  font-size: 16px;
+  text-transform:uppercase;
+  color: #5a8373; 
+  font-family: 'Gruppo', cursive;  
+  padding-top: 40px;
+  font-style: bold; 
+}
+* {
+   box-sizing: border-box;
+}
+
+.imagegallery {
+  width:90%;
+  max-width: 1300px;
+  margin: 2em auto;
+  background: #baecd9;
+  overflow:hidden;
+  padding:.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  max-width:100%;
+}
+
+.item {
+  width:25%;
+  float:left;
+  padding:.5em;
+  
+
+}
+
+.item p {
+  min-height:3em;
+  margin:.5em 0 0 0;
+  font-size:.9em;
+  text-align:center;
+  color: #5a8373;
+  font-family: 'Gruppo', cursive;  
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+  
+ 
+  
+  .item {
+    width:100%;
+  }
+
+}
+.responsive-scale{
+  width:100%;
+  padding-bottom: 66.666666666667%; /* 960px/1440px */
+  background-image:url(../images/title.png);
+  background-size:cover;
+  background-position:center; 
+}
+
